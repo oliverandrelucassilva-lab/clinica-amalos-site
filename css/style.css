@@ -241,7 +241,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   box-shadow: var(--shadow-soft);
   border: 6px solid var(--white);
 }
-.hero-photo { width: 100%; height: 100%; object-fit: cover; }
+.hero-photo { width: 100%; height: 100%; object-fit: cover; object-position: center 15%; }
 .hero-photo-fallback {
   display: none;
   position: absolute;

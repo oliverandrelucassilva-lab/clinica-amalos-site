@@ -11,10 +11,10 @@ Site institucional de uma página para a Clínica Amalos (Saúde Integrativa e O
 
 ## Foto da Dra. Edivânia (hero)
 
-O hero foi montado para exibir a foto da Dra. Edivânia. Adicione o arquivo da foto em:
+O hero foi montado para exibir a foto da Dra. Edivânia. O arquivo da foto fica em:
 
 ```
-assets/img/dra-edivania-hero.jpg
+assets/img/dra-edivania-hero.png
 ```
 
 Enquanto o arquivo não existir, um placeholder ilustrado (fundo rosa/pêssego com coração) aparece automaticamente no lugar da foto, então o site nunca fica quebrado — basta trocar a imagem quando disponível.
