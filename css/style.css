@@ -406,9 +406,16 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   font-size: 3rem;
   color: var(--pink-200);
   position: absolute;
-  top: 6px;
-  left: 16px;
+  top: 4px;
+  right: 18px;
   line-height: 1;
+}
+.testimonial-stars {
+  display: block;
+  color: var(--gold-500);
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
 }
 .testimonial-head { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
 .testimonial-avatar {
@@ -422,7 +429,6 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   flex-shrink: 0;
 }
 .testimonial-head strong { display: block; font-size: .9rem; color: var(--ink-900); }
-.testimonial-stars { color: var(--gold-500); font-size: .85rem; letter-spacing: 1px; }
 
 /* ====== Localização ====== */
 .localizacao-inner { display: grid; gap: 32px; }
