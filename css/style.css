@@ -358,31 +358,6 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   .diferencial-inner { grid-template-columns: .8fr 1.2fr; }
 }
 
-/* ====== Agenda ====== */
-.agenda-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 14px;
-}
-.agenda-day {
-  background: var(--white);
-  border-radius: var(--radius-md);
-  padding: 20px 16px;
-  text-align: center;
-  box-shadow: var(--shadow-card);
-  border: 2px solid var(--pink-100);
-}
-.agenda-day-label {
-  display: block;
-  font-family: var(--font-head);
-  font-weight: 700;
-  color: var(--pink-600);
-  margin-bottom: 8px;
-}
-.agenda-day p { margin: 0; font-size: .85rem; color: var(--ink-700); }
-.agenda-day-muted { opacity: .7; border-style: dashed; }
-.agenda-note { text-align: center; margin-top: 26px; color: var(--ink-500); font-weight: 600; }
-
 /* ====== Galeria ====== */
 .gallery-grid {
   display: grid;
