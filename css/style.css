@@ -125,7 +125,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   padding: 14px 20px;
 }
 .brand { display: flex; align-items: center; gap: 8px; font-family: var(--font-head); font-size: 1.25rem; }
-.brand-heart { font-size: 1.4rem; }
+.brand-heart { height: 22px; width: auto; display: block; }
 .brand-text strong { color: var(--pink-600); }
 
 .nav {
