@@ -536,3 +536,51 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 @media (min-width: 900px) {
   .whatsapp-float { display: none; }
 }
+
+/* ====== Compactação mobile ====== */
+@media (max-width: 640px) {
+  .section { padding: 44px 0; }
+  .section-head { margin-bottom: 30px; }
+  .section-eyebrow { margin-bottom: 10px; font-size: .78rem; padding: 5px 14px; }
+  .section-head h2 { font-size: 1.5rem; }
+
+  .hero { padding: 36px 0 56px; }
+  .eyebrow { margin-bottom: 12px; }
+  .hero-lede { font-size: .95rem; }
+  .hero-actions { gap: 10px; margin: 18px 0 16px; }
+  .hero-figure { margin-top: 8px; }
+  .hero-badge { bottom: -14px; padding: 8px 16px; }
+
+  .about-inner { gap: 26px; }
+  .about-stats { gap: 8px; margin-top: 20px; }
+  .stat-card { padding: 12px 8px; }
+  .stat-card strong { font-size: 1.2rem; }
+  .stat-card span { font-size: .7rem; }
+
+  .specialties-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .specialty-card { padding: 14px 12px; }
+  .specialty-icon { width: 40px; height: 40px; font-size: 1.15rem; margin-bottom: 8px; }
+  .specialty-card h3 { font-size: .88rem; margin-bottom: 4px; line-height: 1.25; }
+  .specialty-card p { font-size: .76rem; line-height: 1.35; }
+
+  .diferencial-inner { gap: 22px; }
+  .heart-ring { width: 140px; height: 140px; }
+  .heart-ring span { font-size: 3.2rem; }
+  .diferencial-list { gap: 10px; margin-top: 14px; }
+
+  .gallery-grid { gap: 8px; }
+
+  .testimonials-grid { gap: 12px; }
+  .testimonial-card { padding: 16px 16px; }
+  .testimonial-head { margin-bottom: 10px; }
+  .testimonial-avatar { width: 34px; height: 34px; font-size: .85rem; }
+
+  .localizacao-inner { gap: 20px; }
+  .info-list { gap: 14px; margin: 16px 0 20px; }
+  .localizacao-map { height: 220px; }
+
+  .section-cta { padding: 40px 0; margin: 24px 12px; }
+  .cta-heart { font-size: 2rem; }
+
+  .site-footer { padding: 32px 0 80px; }
+}
