@@ -34,11 +34,16 @@
 
   --shadow-soft: 0 12px 30px rgba(217, 79, 125, 0.14);
   --shadow-card: 0 8px 24px rgba(217, 79, 125, 0.10);
+
+  --header-height: 84px;
 }
 
 /* ====== Reset ====== */
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: var(--header-height); }
+#topo, #sobre, #especialidades, #diferencial, #galeria, #depoimentos, #localizacao {
+  scroll-margin-top: var(--header-height);
+}
 body {
   margin: 0;
   font-family: var(--font-body);
