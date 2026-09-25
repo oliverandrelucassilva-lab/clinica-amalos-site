@@ -266,14 +266,15 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 .hero-badge {
   position: absolute;
   left: 50%;
-  bottom: -18px;
+  bottom: -28px;
   transform: translateX(-50%);
   background: var(--white);
-  border-radius: 999px;
-  padding: 10px 22px;
+  border-radius: var(--radius-md);
+  padding: 12px 20px;
   box-shadow: var(--shadow-soft);
   text-align: center;
-  white-space: nowrap;
+  width: calc(100% - 24px);
+  max-width: 300px;
   font-size: .8rem;
 }
 .hero-badge strong { display: block; font-family: var(--font-head); color: var(--pink-600); font-size: .95rem; }
