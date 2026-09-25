@@ -363,6 +363,52 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   .diferencial-inner { grid-template-columns: .8fr 1.2fr; }
 }
 
+/* ====== Equipe ====== */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+.team-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 28px 22px;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.team-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-soft); }
+.team-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 14px;
+  border: 3px solid var(--pink-100);
+}
+.team-card h3 { font-size: 1.05rem; margin-bottom: 4px; }
+.team-role {
+  display: block;
+  font-weight: 700;
+  color: var(--pink-600);
+  font-size: .85rem;
+  margin-bottom: 2px;
+}
+.team-cred {
+  display: block;
+  color: var(--ink-500);
+  font-size: .78rem;
+  margin-bottom: 10px;
+}
+.team-card p { font-size: .88rem; margin-bottom: 14px; }
+.team-social {
+  display: inline-block;
+  font-weight: 700;
+  color: var(--pink-600);
+  font-size: .85rem;
+}
+.team-social:hover { text-decoration: underline; }
+
 /* ====== Galeria ====== */
 .gallery-grid {
   display: grid;
