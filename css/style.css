@@ -201,16 +201,6 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   align-items: center;
   background: var(--pink-50);
 }
-.hero-blob {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(0px);
-  opacity: .55;
-  z-index: 0;
-}
-.hero-blob-1 { width: 340px; height: 340px; background: var(--pink-200); top: -120px; right: -100px; }
-.hero-blob-2 { width: 260px; height: 260px; background: var(--peach-300); bottom: -100px; left: -80px; opacity: .5; }
-
 .hero-inner {
   position: relative;
   z-index: 1;
