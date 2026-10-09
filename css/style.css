@@ -532,16 +532,11 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   position: absolute;
   inset: 0;
   z-index: 0;
-  opacity: .07;
-  pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath fill='%23ee6a97' d='M20 34s-14-8.6-14-18.5C6 9.9 10.1 6 15 6c2.9 0 5.6 1.4 7 3.6C23.4 7.4 26.1 6 29 6c4.9 0 9 3.9 9 9.5C38 25.4 24 34 24 34z'/%3E%3C/svg%3E");
-  background-size: 64px 64px;
-  background-repeat: repeat;
-}
-.hero::before {
   opacity: .85;
-  background-size: 836px auto;
+  pointer-events: none;
   background-image: url("../assets/img/hero-pattern.webp");
+  background-size: 836px auto;
+  background-repeat: repeat;
 }
 .hero > .container,
 .section-sobre > .container,
