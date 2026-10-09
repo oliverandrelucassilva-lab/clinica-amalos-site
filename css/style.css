@@ -539,6 +539,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   background-image: url("../assets/img/hero-pattern.webp");
   background-size: 836px auto;
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 .hero > .container,
 .section-sobre > .container,
