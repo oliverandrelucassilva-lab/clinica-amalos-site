@@ -549,9 +549,9 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   background-repeat: repeat;
 }
 .hero::before {
-  opacity: 1;
-  background-size: 92px 92px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='92' height='92'%3E%3Cpath fill='none' stroke='%23ffc9dc' stroke-width='2' d='M46 66s-20-11.8-20-24.3C26 33.6 31.6 28 38.5 28c3.3 0 6.4 1.6 7.5 4.4 1.1-2.8 4.2-4.4 7.5-4.4 6.9 0 12.5 5.6 12.5 13.7C66 54.2 46 66 46 66z'/%3E%3C/svg%3E");
+  opacity: .85;
+  background-size: 836px auto;
+  background-image: url("../assets/img/hero-pattern.webp");
 }
 .hero > .container,
 .section-sobre > .container,
