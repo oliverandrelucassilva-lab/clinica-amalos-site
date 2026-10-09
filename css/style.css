@@ -340,11 +340,25 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 
 /* ====== Diferencial ====== */
 .diferencial-inner { display: grid; gap: 40px; align-items: center; }
-.diferencial-visual { display: flex; justify-content: center; }
+.diferencial-visual { display: flex; justify-content: center; position: relative; }
+.diferencial-visual::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55%;
+  height: 22px;
+  background: radial-gradient(ellipse at center, rgba(177, 58, 100, .35) 0%, rgba(177, 58, 100, 0) 70%);
+  border-radius: 50%;
+  z-index: 0;
+}
 .diferencial-photo {
-  width: min(320px, 70vw);
+  width: min(380px, 82vw);
   height: auto;
   display: block;
+  position: relative;
+  z-index: 1;
 }
 .diferencial-list { display: grid; gap: 14px; margin-top: 20px; }
 .diferencial-list li { display: flex; align-items: flex-start; gap: 12px; font-weight: 600; color: var(--ink-900); }
@@ -601,7 +615,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   .specialty-card p { font-size: .76rem; line-height: 1.35; }
 
   .diferencial-inner { gap: 22px; }
-  .diferencial-photo { width: min(220px, 60vw); }
+  .diferencial-photo { width: min(260px, 68vw); }
   .diferencial-list { gap: 10px; margin-top: 14px; }
 
   .gallery-grid { gap: 8px; }
