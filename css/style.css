@@ -229,6 +229,11 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 .ig-badge { color: var(--pink-600); }
 
 .hero-figure { position: relative; display: flex; justify-content: center; }
+.hero-photo-cutout {
+  width: min(480px, 92vw);
+  height: auto;
+  display: block;
+}
 .hero-photo-frame {
   position: relative;
   width: min(440px, 88vw);
