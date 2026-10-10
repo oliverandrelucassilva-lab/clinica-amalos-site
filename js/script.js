@@ -22,4 +22,20 @@ document.addEventListener('DOMContentLoaded', function () {
   if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
   }
+
+  document.querySelectorAll('.gallery-video').forEach(function (figure) {
+    var btn = figure.querySelector('.yt-facade');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var videoId = figure.getAttribute('data-yt-id');
+      var iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0';
+      iframe.title = 'Vídeo da Clínica Amalos';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.allowFullscreen = true;
+      iframe.style.cssText = 'width:100%;height:100%;border:0;display:block;';
+      figure.innerHTML = '';
+      figure.appendChild(iframe);
+    });
+  });
 });
