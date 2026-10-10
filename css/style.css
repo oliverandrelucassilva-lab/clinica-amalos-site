@@ -199,7 +199,9 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   min-height: calc(100vh - var(--header-height));
   display: flex;
   align-items: center;
-  background: var(--pink-50);
+  background:
+    linear-gradient(100deg, rgba(255, 245, 248, .92) 0%, rgba(255, 245, 248, .8) 35%, rgba(255, 245, 248, .35) 55%, rgba(255, 245, 248, .15) 75%),
+    url("../assets/img/hero-bg-consultorio.webp") center / cover no-repeat;
 }
 .hero-inner {
   position: relative;
@@ -532,7 +534,6 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   position: relative;
   overflow: hidden;
 }
-.hero::before,
 .section-sobre::before,
 .section-diferencial::before,
 .section-depoimentos::before,
