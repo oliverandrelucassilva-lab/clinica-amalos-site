@@ -196,12 +196,15 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   position: relative;
   overflow: hidden;
   padding: 56px 0 80px;
-  min-height: calc(100vh - var(--header-height));
+  min-height: calc(100vh - var(--header-height) + 60px);
   display: flex;
   align-items: center;
-  background:
+  background-image:
     linear-gradient(100deg, rgba(255, 245, 248, .92) 0%, rgba(255, 245, 248, .8) 35%, rgba(255, 245, 248, .35) 55%, rgba(255, 245, 248, .15) 75%),
-    url("../assets/img/hero-bg-consultorio.webp") center / cover no-repeat;
+    url("../assets/img/hero-bg-consultorio.webp");
+  background-position: center, center;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
 }
 .hero-inner {
   position: relative;
