@@ -230,7 +230,8 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 
 .hero-figure { position: relative; display: flex; justify-content: center; }
 .hero-photo-cutout {
-  width: min(640px, 96vw);
+  width: min(820px, 100vw);
+  max-width: none;
   height: auto;
   display: block;
 }
@@ -284,6 +285,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
 
 @media (min-width: 960px) {
   .hero-inner { grid-template-columns: 1.1fr .9fr; align-items: center; }
+  .hero-figure { justify-content: flex-end; overflow: visible; }
 }
 
 /* ====== Sobre ====== */
