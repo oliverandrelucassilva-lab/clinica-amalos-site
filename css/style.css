@@ -254,10 +254,10 @@ p { margin: 0 0 1em; color: var(--ink-700); }
   .hero-figure-big {
     display: block;
     position: absolute;
-    right: 2%;
+    right: 0;
     bottom: 0;
-    height: 96%;
-    width: min(46%, 640px);
+    height: 100%;
+    width: min(54%, 760px);
     z-index: 1;
     pointer-events: none;
   }
@@ -275,7 +275,7 @@ p { margin: 0 0 1em; color: var(--ink-700); }
     pointer-events: auto;
   }
   .hero-inner { position: relative; z-index: 2; }
-  .hero-text { max-width: 54%; }
+  .hero-text { max-width: 46%; }
 }
 .hero-photo-frame {
   position: relative;
